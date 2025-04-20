@@ -1,0 +1,5 @@
+* This application is an example app from Material UI
+* Use Material UI for all styling and theming
+* Use my existing components. These are Material UI components.
+* Do not create new components unless they do not exist within Material UI
+* The Builder.io logo should be pulled from this URL: https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F71e516d3b104486ca1c88e279a88cf33?width=25. The logo should be resized to fit the nav menu appropriately. It should not be taller than the text next to it.
