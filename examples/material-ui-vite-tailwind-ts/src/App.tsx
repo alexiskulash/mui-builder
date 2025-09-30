@@ -2,7 +2,6 @@ import * as React from 'react';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
-import Slider from '@mui/material/Slider';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Stack from '@mui/material/Stack';
@@ -21,7 +20,6 @@ import TableCell from '@mui/material/TableCell';
 import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
-import PopoverMenu from './PopoverMenu';
 
 function Copyright() {
   return (
@@ -30,7 +28,7 @@ function Copyright() {
       align="center"
       sx={{ color: 'text.secondary' }}
     >
-      {'Copyright © 2025 .'}
+      {'More content to come'}
     </Typography>
   );
 }
@@ -256,26 +254,7 @@ function DashboardSection() {
 }
 
 function ComponentsSection() {
-  return (
-    <Box sx={{ my: 6 }}>
-      <Paper elevation={2} sx={{ p: { xs: 2, sm: 3 }, maxWidth: 560, mx: 'auto', mb: 4 }}>
-        <Stack spacing={2} alignItems="stretch">
-          <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-            Try the components:
-          </Typography>
-          <Slider
-            className="my-1"
-            defaultValue={30}
-            classes={{ active: 'shadow-none' }}
-            slotProps={{ thumb: { className: 'hover:shadow-none' } }}
-          />
-          <Stack direction="row" spacing={1} justifyContent="center">
-            <PopoverMenu />
-          </Stack>
-        </Stack>
-      </Paper>
-    </Box>
-  );
+  return <Box sx={{ my: 6 }} />;
 }
 
 function AboutSection() {
