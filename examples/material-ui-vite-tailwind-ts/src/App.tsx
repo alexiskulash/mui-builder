@@ -30,12 +30,7 @@ function Copyright() {
       align="center"
       sx={{ color: 'text.secondary' }}
     >
-      {'Copyright © '}
-      <Link color="inherit" href="https://mui.com/">
-        Your Website
-      </Link>{' '}
-      {new Date().getFullYear()}
-      {'.'}
+      {'Copyright © 2025 .'}
     </Typography>
   );
 }
@@ -303,11 +298,11 @@ export default function App() {
       <AppBar position="sticky" color="inherit" elevation={0} sx={{ borderBottom: '1px solid', borderColor: 'divider' }}>
         <Toolbar sx={{ gap: 1 }}>
           <Typography variant="h6" sx={{ flexGrow: 1 }}>
-            Dashboard
+            Starter Template
           </Typography>
-          <Button color="primary" onClick={() => navigate('home')} href="#/">Dashboard</Button>
-          <Button color="primary" onClick={() => navigate('components')} href="#/components">Components</Button>
-          <Button color="primary" onClick={() => navigate('about')} href="#/about">About</Button>
+          <Button color="primary" onClick={() => navigate('home')} href="#/">Home</Button>
+          <Button color="primary" onClick={() => navigate('components')} href="#/components">ABOUT</Button>
+          <Button color="primary" onClick={() => navigate('about')} href="#/about">Login</Button>
         </Toolbar>
       </AppBar>
 
@@ -315,7 +310,6 @@ export default function App() {
         {route === 'home' && <DashboardSection />}
         {route === 'components' && <ComponentsSection />}
         {route === 'about' && <AboutSection />}
-        <Divider sx={{ my: 4 }} />
         <Copyright />
       </Container>
     </Box>
