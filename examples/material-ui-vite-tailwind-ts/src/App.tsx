@@ -66,10 +66,10 @@ function HomeSection() {
       }}
     >
       <Typography variant="h3" component="h1" sx={{ fontWeight: 600, mb: 1 }}>
-        Material UI Starter Template
+        Starter Template
       </Typography>
       <Typography variant="subtitle1" sx={{ color: 'text.secondary', mb: 4 }}>
-        A clean, light starting point for future prototypes.
+        A clean, light starting point for future ideas + prototypes.
       </Typography>
       <ProTip />
       <Divider sx={{ my: 2 }} />
@@ -124,7 +124,7 @@ export default function App() {
             Material UI Starter Template
           </Typography>
           <Button color="primary" onClick={() => navigate('home')} href="#/">Home</Button>
-          <Button color="primary" onClick={() => navigate('components')} href="#/components">Components</Button>
+          <Button color="primary" onClick={() => navigate('components')} href="#/components">SHOWCASE</Button>
           <Button color="primary" onClick={() => navigate('about')} href="#/about">About</Button>
         </Toolbar>
       </AppBar>
