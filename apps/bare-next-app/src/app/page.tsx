@@ -17,13 +17,7 @@ export default function Home() {
       <nav>
         <ul style={{ display: 'grid', gap: 8, listStyle: 'inside' }}>
           <li>
-            <Link href="/dashboard">Open Dashboard</Link>
-          </li>
-          <li>
             <Link href="/material-ui">Material UI component demos</Link>
-          </li>
-          <li>
-            <Link href="/grid">Grid layout demos</Link>
           </li>
         </ul>
       </nav>
