@@ -1,0 +1,4 @@
+* Only modify files under: examples/material-ui-vite-tailwind-ts/**
+* Create new files only under: examples/material-ui-vite-tailwind-ts/src or examples/material-ui-vite-tailwind-ts/public
+* Do not read/modify/create files outside this path (apps/, docs/, packages/, packages-internal/, scripts/, test/, etc.). If needed, ask for approval first.
+* Limit package/config changes to examples/material-ui-vite-tailwind-ts/ (never touch root or other packages). Use this project’s Vite/Tailwind/MUI setup exclusively.
