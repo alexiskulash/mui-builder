@@ -258,16 +258,7 @@ function ComponentsSection() {
 }
 
 function AboutSection() {
-  return (
-    <Box sx={{ my: 6, textAlign: 'center' }}>
-      <Typography variant="h5" sx={{ mb: 1 }}>
-        About
-      </Typography>
-      <Typography color="text.secondary">
-        This starter helps you spin up quick prototypes with Material UI and Vite.
-      </Typography>
-    </Box>
-  );
+  return <Box sx={{ my: 6 }} />;
 }
 
 export default function App() {
